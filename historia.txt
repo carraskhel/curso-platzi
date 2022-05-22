@@ -20,4 +20,4 @@ final
 
 se de oracle,informix y sqlserver
 
-se configurar dataguard, golden gate, instalar cloud control instanciar en mysql.
+se configurar dataguard, golden gate, instalar cloud control instanciar en mysql o mariadb.
