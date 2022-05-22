@@ -7,7 +7,7 @@ tengo 26 años y trabajo en ccr
 
 soy administrador de base de datos y tengo 5 años en el area
 
-pase por cantv,adsi y credicard
+pase por cantv,adsi y credicard y proximamente me cambiare de trabajo
 
 
 
@@ -20,4 +20,4 @@ final
 
 se de oracle,informix y sqlserver
 
-se configurar dataguard, golden gate, instanciar en mysql
+se configurar dataguard, golden gate, instalar cloud control instanciar en mysql.
