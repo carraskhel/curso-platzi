@@ -15,3 +15,5 @@ soy administrador de base de datos
 
 final
 =====
+
+se de oracle,informix y sqlserver
