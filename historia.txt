@@ -17,3 +17,5 @@ final
 =====
 
 se de oracle,informix y sqlserver
+
+se configurar dataguard, golden gate, instanciar en mysql
