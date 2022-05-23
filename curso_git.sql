@@ -31,7 +31,7 @@ git pull hace ambos (fetch y merge)
 
 
 staging 	: crea un area en memoria RAM (area temporal de preparacion)
-untraked 	: archivo sin rastrear (antes deejecutar add)
+untraked 	: archivo sin rastrear (antes de ejecutar add)
 tracked 	: archivo rastreado (despues de ejecutar add)
 master 		: rama por default
 reset	 	: volver en tiempo a un tag especifico
@@ -61,3 +61,25 @@ git push origin master 	: Subir cambios
 git pull origin master 	: Traer Cambios
 
 git pull origin master --allow-unrelated-histories  	: Permitir traer los cambios remotos a mi rama y formazr la union asi sea historias no relacionadas
+
+
+
+llaves publicas y privadas
+===========================
+
+estan vinculadas, lo que cifre con la publica solo la privada puede abrir.
+
+proceso: 
+
+1. crear llave publica y provada
+2. dar a git la llave publica 
+
+
+git config -l
+
+ssh-keygen -t rsa -b 4096 -C "khelvyn95@gmail.com" 		: Generar llaves
+
+eval $(ssh-agent -s) 									: Validar que el servico de llaves este running
+
+ssh-add <ruta_llave_privada> 							: añadir llave al server o maquina
+ssh-add ~/.ssh/id_rsa 
