@@ -209,3 +209,4 @@ git COMANDO --help = muestra como funciona el comando.
 git blame ARCHIVO -Llinea_inicial,linea_final= muestra quien hizo cada cosa linea por linea indicándole desde que linea ver ejemplo -L35,50
 git branch -a = se muestran todas las ramas tanto locales como remotas
 
+
