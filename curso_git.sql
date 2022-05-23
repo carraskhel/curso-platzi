@@ -132,3 +132,68 @@ fork o bifurcaciones
 
 copio exactamente y lo clono a mi repo local, pero no soy colaborador del proyecto
 
+
+deployment a un servidor
+========================
+
+git clone <url>   (forma general y rapida, pero es mala practica)
+
+
+
+ignorar archivos
+================
+
+en el archivo .gitignore es por una lista
+
+*.jpg : example
+
+readme.md : https://pandao.github.io/editor.md/en.html
+
+
+
+githubpages : https://pages.github.com/
+
+
+
+rebase
+======
+
+solo se usa en local, y se usa para reescribir la historia y elimina la rama
+
+git rebase master
+
+
+git clean
+=========
+
+git clean --dry-run
+
+git clean -f 
+
+
+Git cherry-pick: traer commits viejos al head de un branch
+
+git cherry-pick <hash>
+
+git reflog 
+
+git reset --HARD <hash>
+
+
+reconstruir commits
+====================
+
+git add <archivo>
+
+git commit --amend   	: lo agregua al anterior commit
+
+
+
+buscar con grep y log
+======================
+
+git grep khelvyn				: muestra los archivos que contienen khelvyn en todo el proyecto
+
+git grep -n khelvyn 			: ve que linea del archivo esta khelvyn
+
+git grep -c khelvyn 			: cuenta las veces se repite khelvyn por archivo
