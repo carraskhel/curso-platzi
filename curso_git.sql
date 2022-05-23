@@ -3,6 +3,7 @@ git log <archivo>
 git rm <archivo>
 git rm --cached <archivo>
 git log --stat
+git remote -v
 
 analizar
 ========
@@ -83,3 +84,51 @@ eval $(ssh-agent -s) 									: Validar que el servico de llaves este running
 
 ssh-add <ruta_llave_privada> 							: añadir llave al server o maquina
 ssh-add ~/.ssh/id_rsa 
+
+
+
+Entrar en el perfil de Github, ir a usuario, settings y seleccionar SSH and GPG keys
+Se agrega una descripcion y se pega la llave publica generada en la pc
+
+
+en el proyecto,
+
+git remote set-url origin <dir_ssh>
+
+git pull
+
+
+git log --all --graph --decorate --oneline
+
+
+crear TAG 
+=========
+
+git tag -a <nombre_tag> -m "<mensaje como el commit>" <tag_commit>
+
+git push origin --tags
+
+git tag -a dormido -m "<mensaje>" <tag_commit>
+
+git tag
+
+git tag -d dormido 
+
+git push origin :refs/tags/dormido
+
+gitk		: ayuda visual
+
+
+
+pull request
+============
+
+zona intermedia del merge, para que los colaboradores validen y revisen el codigo, si les gusta aprueban y se ejecuta el merge, buenas practicas
+
+
+
+fork o bifurcaciones
+=====================
+
+copio exactamente y lo clono a mi repo local, pero no soy colaborador del proyecto
+
